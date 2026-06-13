@@ -1,7 +1,7 @@
 {
-  "name": "KeePass PWA Viewer",
-  "short_name": "KeePass",
-  "description": "Secure password manager - View KeePassXC databases on your phone",
+  "name": "KeePass-mww Viewer",
+  "short_name": "KeePass-mww",
+  "description": "Secure password manager by Morvay Web Works - View KeePassXC databases on your phone",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#1a1a2e",
