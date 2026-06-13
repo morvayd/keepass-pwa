@@ -47,6 +47,23 @@ class KeePassApp {
         // Unlock button
         document.getElementById('unlock-btn').addEventListener('click', () => this.unlockDatabase());
 
+        // About button
+        document.getElementById('about-btn').addEventListener('click', () => {
+            document.getElementById('about-modal').classList.add('active');
+        });
+
+        // Close about modal
+        document.getElementById('close-about-modal').addEventListener('click', () => {
+            document.getElementById('about-modal').classList.remove('active');
+        });
+
+        // Click outside about modal to close
+        document.getElementById('about-modal').addEventListener('click', (e) => {
+            if (e.target.id === 'about-modal') {
+                document.getElementById('about-modal').classList.remove('active');
+            }
+        });
+
         // Lock button
         document.getElementById('lock-btn').addEventListener('click', () => this.lockDatabase());
 
