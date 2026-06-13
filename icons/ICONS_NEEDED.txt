@@ -1,0 +1,24 @@
+You need to create two icon files for the PWA to work properly:
+
+1. icon-192.png (192x192 pixels)
+2. icon-512.png (512x512 pixels)
+
+Quick ways to create them:
+
+Option 1: Online Generator
+- Visit: https://www.favicon-generator.org/
+- Upload any image
+- Download and rename to icon-192.png and icon-512.png
+
+Option 2: Simple Design
+- Create a 512x512 image with a lock icon 🔒
+- Use any image editor (Paint, Photoshop, GIMP, etc.)
+- Save as PNG format
+- Create a smaller 192x192 version
+
+Option 3: Use KeePass Logo
+- Search for "KeePass logo" online
+- Resize to 512x512 and 192x192
+- Save as PNG files
+
+Place both files in this icons/ folder.
