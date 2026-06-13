@@ -1,6 +1,8 @@
-# KeePass PWA Viewer
+# KeePass-mww Viewer
 
 A Progressive Web App for viewing KeePassXC databases on your iPhone and other devices. No App Store required!
+
+**Created by Daniel Morvay (Morvay Web Works) with IBM Bob**
 
 ## 🔌 100% OFFLINE - Works Without Internet!
 
@@ -42,7 +44,7 @@ See [OFFLINE_GUIDE.md](OFFLINE_GUIDE.md) for complete offline usage details.
 
 ### For iPhone Users
 
-1. **Host the app** `https://morvayd.github.io/keepass-pwa/`
+1. **Host the app** `[https://morvayd.github.io/keepass-mww/](https://morvayd.github.io/keepass-mww/)`
 2. **Open Safari** on your iPhone
 3. **Navigate to your hosted URL**
 4. **Tap the Share button** (square with arrow)
@@ -51,7 +53,7 @@ See [OFFLINE_GUIDE.md](OFFLINE_GUIDE.md) for complete offline usage details.
 
 ### For Android Users
 
-1. **Host the app** `https://morvayd.github.io/keepass-pwa/`
+1. **Host the app** `[https://morvayd.github.io/keepass-mww/](https://morvayd.github.io/keepass-mww/)``
 2. **Open Chrome** on your Android device
 3. **Navigate to your hosted URL**
 4. **Tap the menu** (three dots)
@@ -61,14 +63,14 @@ See [OFFLINE_GUIDE.md](OFFLINE_GUIDE.md) for complete offline usage details.
 
 ### Option 1: GitHub Pages (Free & Easy)
 
-**The app will be available at:** `https://morvayd.github.io/keepass-pwa/`
+**The app will be available at:** `[https://morvayd.github.io/keepass-mww/](https://morvayd.github.io/keepass-mww/)``
 
 ### Option 4: Local Testing
 
 For testing on your computer:
 
 ```bash
-cd keepass-pwa
+cd keepass-mww
 python3 -m http.server 8000
 ```
 
@@ -90,7 +92,7 @@ Then open `http://localhost:8000` in your browser.
 ## File Structure
 
 ```
-keepass-pwa/
+keepass-mww/
 ├── index.html              # Main HTML file
 ├── manifest.json           # PWA configuration
 ├── service-worker.js       # Offline functionality
@@ -198,7 +200,7 @@ After adding to home screen, the app works **100% offline**:
 
 To modify the app:
 
-1. Edit files in the `keepass-pwa` folder
+1. Edit files in the `keepass-mww` folder
 2. Test locally with a web server
 3. Deploy changes to your hosting service
 
@@ -208,6 +210,7 @@ This project is provided as-is for personal use. Feel free to modify and share.
 
 ## Credits
 
+- **Created by:** Daniel Morvay (Morvay Web Works) with IBM Bob
 - Built with [kdbxweb](https://github.com/keeweb/kdbxweb) library
 - Compatible with [KeePassXC](https://keepassxc.org/) databases
 
