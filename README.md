@@ -42,7 +42,7 @@ See [OFFLINE_GUIDE.md](OFFLINE_GUIDE.md) for complete offline usage details.
 
 ### For iPhone Users
 
-1. **Host the app** (see Hosting Options below)
+1. **Host the app** `https://morvayd.github.io/keepass-pwa/`
 2. **Open Safari** on your iPhone
 3. **Navigate to your hosted URL**
 4. **Tap the Share button** (square with arrow)
@@ -51,7 +51,7 @@ See [OFFLINE_GUIDE.md](OFFLINE_GUIDE.md) for complete offline usage details.
 
 ### For Android Users
 
-1. **Host the app** (see Hosting Options below)
+1. **Host the app** `https://morvayd.github.io/keepass-pwa/`
 2. **Open Chrome** on your Android device
 3. **Navigate to your hosted URL**
 4. **Tap the menu** (three dots)
@@ -61,24 +61,7 @@ See [OFFLINE_GUIDE.md](OFFLINE_GUIDE.md) for complete offline usage details.
 
 ### Option 1: GitHub Pages (Free & Easy)
 
-1. **Create a GitHub account** (if you don't have one)
-2. **Create a new repository** named `keepass-pwa`
-3. **Upload all files** from the `keepass-pwa` folder
-4. **Go to Settings** → Pages
-5. **Select "main" branch** as source
-6. **Your app will be available at:** `https://yourusername.github.io/keepass-pwa`
-
-### Option 2: Netlify (Free & Automatic)
-
-1. **Create a Netlify account** at netlify.com
-2. **Drag and drop** the `keepass-pwa` folder to Netlify
-3. **Your app will be live** at a random URL (you can customize it)
-
-### Option 3: Vercel (Free & Fast)
-
-1. **Create a Vercel account** at vercel.com
-2. **Import the project** or drag and drop the folder
-3. **Deploy** - Your app will be live instantly
+**The app will be available at:** `https://morvayd.github.io/keepass-pwa/`
 
 ### Option 4: Local Testing
 
