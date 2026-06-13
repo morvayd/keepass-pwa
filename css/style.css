@@ -240,7 +240,7 @@ input[type="password"]:focus {
     position: sticky;
     top: 0;
     z-index: 100;
-    margin-top: 0;
+    margin-top: 60px;
 }
 
 .header-content {
