@@ -196,7 +196,10 @@ class KeePassApp {
 
     displayGroups() {
         const groupsList = document.getElementById('groups-list');
+        const entriesList = document.getElementById('entries-list');
+        
         groupsList.innerHTML = '';
+        groupsList.style.display = '';
 
         if (this.groups.length === 0) {
             groupsList.innerHTML = `
@@ -231,7 +234,7 @@ class KeePassApp {
             groupsList.appendChild(groupEl);
         });
 
-        document.getElementById('entries-list').classList.remove('active');
+        entriesList.classList.remove('active');
     }
 
     showGroupEntries(group) {
